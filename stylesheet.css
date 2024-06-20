@@ -1,0 +1,16 @@
+.big {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.selected {
+    color: red;
+}
+
+.select a:hover {
+    color: blue;
+    text-decoration: dashed;
+}
