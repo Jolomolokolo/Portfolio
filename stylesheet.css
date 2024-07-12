@@ -15,6 +15,10 @@ CTA color: #F1C40F or #E74C3C
     text-decoration: underline;
 }
 
+.centered {
+    text-align: center;
+}
+
 .selected {
     color: #1ABC9C;
     font-family: Arial, Arial, Helvetica, sans-serif;
