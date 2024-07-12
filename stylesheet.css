@@ -1,3 +1,12 @@
+/*
+Primary color: #2C3E50
+Secondary color: #1ABC9C
+Background color: #ECF0F1
+Text color: #34495E
+Akcent color: #F1C40F
+CTA color: #F1C40F or #E74C3C
+*/
+
 .big {
     font-weight: bold;
 }
@@ -7,14 +16,32 @@
 }
 
 .selected {
-    color: red;
+    color: #1ABC9C;
 }
 
 .select a:hover {
-    color: blue;
+    color: #F1C40F;
     text-decoration: dashed;
 }
 
 header {
-    background-color: green;
+    background-color: #2C3E50;
+}
+
+.learning {
+    color: blue;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #ECF0F1;
+}
+
+p, li, a, h1, h2, h3, h4, h5, h6{
+    color: #34495E;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+.skills {
+    list-style-type: none;
 }
