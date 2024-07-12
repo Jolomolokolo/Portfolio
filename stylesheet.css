@@ -28,6 +28,12 @@ CTA color: #F1C40F or #E74C3C
 
 header {
     background-color: #2C3E50;
+    margin: -10px;
+    padding: 25px;
+    text-align: center;;
+}
+header a {
+    margin: 10px;
 }
 
 .learning {
@@ -58,7 +64,7 @@ p, li, h1, h2, h3, h4, h5, h6, a{
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(2);
     gap: 10px;
-    }
+}
 
 .grid-items {
     display: flex;
@@ -68,9 +74,27 @@ p, li, h1, h2, h3, h4, h5, h6, a{
     padding: 10px;
     font-size: 1rem;
     text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(44, 62, 80, 0.7);
+}
+
+.grid-items-down li {
     list-style: none;
 }
 
-.grid-items li {
-    list-style: none;
+.grid-items-down ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.grid-items-down {
+    display: flex;
+    justify-content: center;
+    background-color: #2C3E50;
+    font-size: 1rem;
+    padding: 10px;
+    line-height: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(44, 62, 80, 0.7);
 }
