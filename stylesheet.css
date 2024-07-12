@@ -37,11 +37,38 @@ body {
     background-color: #ECF0F1;
 }
 
-p, li, a, h1, h2, h3, h4, h5, h6{
+.text {
     color: #34495E;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+p, li, a, h1, h2, h3, h4, h5, h6{
+    color: #FFFFFF;
     font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
 .skills {
     list-style-type: none;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2);
+    gap: 10px;
+    }
+
+.grid-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C3E50;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: left;
+    list-style: none;
+}
+
+.grid-items li {
+    list-style: none;;
 }
