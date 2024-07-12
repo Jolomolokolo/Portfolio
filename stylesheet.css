@@ -17,11 +17,13 @@ CTA color: #F1C40F or #E74C3C
 
 .selected {
     color: #1ABC9C;
+    font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
 .select a:hover {
     color: #F1C40F;
     text-decoration: dashed;
+    font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -29,20 +31,20 @@ header {
 }
 
 .learning {
-    color: blue;
-    line-height: 1.5;
+    color: rgb(33, 137, 255);
+    font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: #ECF0F1;
 }
 
-.text {
+p, li, h1, h2, h3, h4, h5, h6, a{
     color: #34495E;
     font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
-p, li, a, h1, h2, h3, h4, h5, h6{
+.text-b{
     color: #FFFFFF;
     font-family: Arial, Arial, Helvetica, sans-serif;
 }
@@ -70,5 +72,5 @@ p, li, a, h1, h2, h3, h4, h5, h6{
 }
 
 .grid-items li {
-    list-style: none;;
+    list-style: none;
 }
