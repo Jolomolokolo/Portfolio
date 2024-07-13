@@ -68,6 +68,7 @@ p, li, h1, h2, h3, h4, h5, h6, a{
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(2);
     gap: 10px;
+    padding: 0px 10px 10px 10px; 
 }
 
 .grid-items {
@@ -136,4 +137,64 @@ footer {
     line-height: 1.7rem;
     font-size: 1.3rem;
     padding: 0px 25px 10px 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skill-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "item1 item2"
+            "item8 item9"
+            "item3 item4"
+            "item10 item11"
+            "item5 item6"
+            "item12 item13"
+            "item7 item14";
+    }
+    .grid-items:nth-child(1) { grid-area: item1; }
+    .grid-items:nth-child(2) { grid-area: item2; }
+    .grid-items:nth-child(3) { grid-area: item3; }
+    .grid-items:nth-child(4) { grid-area: item4; }
+    .grid-items:nth-child(5) { grid-area: item5; }
+    .grid-items:nth-child(6) { grid-area: item6; }
+    .grid-items:nth-child(7) { grid-area: item7; }
+    .grid-items-down:nth-child(8) { grid-area: item8; }
+    .grid-items-down:nth-child(9) { grid-area: item9; }
+    .grid-items-down:nth-child(10) { grid-area: item10; }
+    .grid-items-down:nth-child(11) { grid-area: item11; }
+    .grid-items-down:nth-child(12) { grid-area: item12; }
+    .grid-items-down:nth-child(13) { grid-area: item13; }
+    .grid-items-down:nth-child(14) { grid-area: item14; }
+
+    .grid-items, .grid-items-down {
+        justify-content: flex-start;
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "item1"
+            "item8"
+            "item2"
+            "item9"
+            "item3"
+            "item10"
+            "item4"
+            "item11"
+            "item5"
+            "item12"
+            "item6"
+            "item13"
+            "item7"
+            "item14";
+    }
+    .grid-items, .grid-items-down {
+        grid-column: span 1;
+        justify-content: flex-start;
+        text-align: left;
+    }
 }
