@@ -110,3 +110,10 @@ footer {
     padding: 10px;
     margin: 50px -10px 10px;
 }
+
+.logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    align-items: center;
+}
