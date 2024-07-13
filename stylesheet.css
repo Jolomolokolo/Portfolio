@@ -108,7 +108,7 @@ footer {
     background-color: #2C3E50;
     text-align: center;
     padding: 10px;
-    margin: 50px -10px 10px;
+    margin: 50px -10px 0px -10px;
 }
 
 /*
@@ -136,6 +136,26 @@ footer {
 }
 
 .about-text {
+    line-height: 1.7rem;
+    font-size: 1.3rem;
+    padding: 0px 25px 10px 25px;
+}
+
+.contact {
+    background-color: #2C3E50;
+    padding: 10px;
+    margin: 50px 10px 50px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(44, 62, 80, 0.7);
+}
+
+.contact-heading {
+    color: #F1C40F;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
+.contact-text {
     line-height: 1.7rem;
     font-size: 1.3rem;
     padding: 0px 25px 10px 25px;
