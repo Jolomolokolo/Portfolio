@@ -256,5 +256,15 @@ footer {
 }
 
 .description-grid {
+    line-height: 1.7rem;
+    font-size: 1.3rem;
+    padding: 0px 25px 10px 25px;
+}
 
+.technologies {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+th, td {
+    text-align: left;
 }
