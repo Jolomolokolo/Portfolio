@@ -225,8 +225,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4);
-    gap: 10px;
-    padding: 0px 10px 10px 10px; 
+    gap: 25px;
+    padding: 0px 25px 10px 25px; 
 }
 
 .grid-items-projects {
@@ -268,3 +268,8 @@ footer {
 th, td {
     text-align: left;
 }
+
+.project-heading {
+    font-size: 2rem;
+}
+
