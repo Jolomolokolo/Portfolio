@@ -277,4 +277,13 @@ th, td {
     font-size: 4rem;
     text-align: center;
     margin: 10px;
+    padding-top: 25px;
+}
+
+.space {
+    padding: 100px 100px 100px 100px;
+}
+
+.spaces {
+    padding-bottom: 379px;
 }
