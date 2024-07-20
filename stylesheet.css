@@ -272,4 +272,9 @@ th, td {
 .project-heading {
     font-size: 2rem;
 }
-
+.heading-project {
+    color: #F1C40F;
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px;
+}
